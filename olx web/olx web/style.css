@@ -1,0 +1,102 @@
+.nav_top{
+    display: flex;
+    flex-direction: row;
+}
+.nave_btm{
+     display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    margin: 0px 110px 0px 110px;
+}
+
+
+
+.bar_icon{
+    background-color:  #ebeeef;
+    margin-left: 20px;
+    /* border: 1px solid ; */
+    border-radius: 50px;
+    /* width: 30px; height: 30px; */
+}
+
+.bar_icon:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+
+.bar_text:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+
+.navbar-nav:hover{
+    cursor: pointer;
+    color: lightblue;
+}
+
+.row{
+    display: flex;
+    flex-direction:row;
+}
+
+.location{
+    background-color: #fff;
+    /* border: 0.1rem solid black; */
+    width: 300px;
+    height: 48px;
+    max-height: 100%;
+    display: flex; 
+}
+
+.inp{
+    height: 100%;
+    border: none;
+    /* padding: 20px; */
+}
+/* 
+.sell{
+    border-image:url(./img/border.png);
+    border-image-repeat: round;
+} */
+
+.app_box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav-item{
+    color: lightblue;
+}
+
+.active:hover{
+        color: lightblue;
+}
+
+.app{
+     margin:10px;
+    
+}
+
+.app_img{
+    width: 120px;
+    
+}
+
+
+.app_img2{
+    width: 100px;
+    
+}
+
+
+.tex_footr{
+    margin: 10px;
+    color: rgba(0,47,52,.64);
+}
+
+.psan_end:hover{
+    cursor: pointer;
+    color: black;
+}
