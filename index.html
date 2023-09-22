@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <div class="nav_top" style="margin: 10px 10px 10px 110px;">
+        <div class="container" class="nav_top col-12 col-lg-12 col-md-12 col-sm-12" style=" display: flex;">
             <div>
             <img src="./img/logo olx.png" alt="" style="height: 20px;">
             </div>
@@ -34,20 +34,20 @@
             </Div>
         </div>
 
-
-        <div class="row" style=" margin: 0px 20px 0px  120px; padding: 10px 0px; display: flex; flex-direction: row; cursor: pointer;">
+        <div class="container" style="justify-content: center; align-items: center; align-content: center;">
+        <div class="row" style="  padding: 10px 0px; display: flex; flex-direction: row; cursor: pointer;">
             
-            <div  style=" width: 100px;">
+            <div  class="top_div_img" style=" width: 100px;">
                 <img src="./img/logo olx.png" alt="" style="height: 40px;">
             </div>
-            <div class="location" style="width: 300px ;   " >
+            <div class="location  col-sm-12 " style="width: 300px ;   " >
                
             
 
             
             <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search City, area or locality" style="border: black 2px solid;>
-            <datalist id="datalistOptions">
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search City, area or locality" style="border: black 2px solid";>
+            <datalist id="datalistOptions" >
                 <option value="pakistan">
                 <option value="New York">
                 <option value="Seattle">
@@ -92,6 +92,7 @@
                    </button>
                </div>
             
+        </div>
         </div>
        
     </header>
@@ -147,16 +148,17 @@
     </nav>
 
 
-    <div style="width: 100%; height: 200px; padding: 20px;">
+    <div class="container-fulid"
+     style="width: 100%; height: 200px;">
         <img src="./img/295176473-800x600.webp" alt="" style="width: 100%; height: 200px;">
     </div>
 
-    <div style="padding: 20px; margin-left: 110px; margin-right: 110px; cursor: pointer;">
+    <div class="container" style="padding: 20px; cursor: pointer;">
         <div>
         <span style="font-size: 2.4rem; font-weight: 700;">All Categories</span>
         </div>
 
-        <div class="row" style="display: flex; justify-content: space-between;margin-bottom: 2rem;">
+        <div class="row" style="display: flex; justify-content: space-around;margin-bottom: 2rem;">
             <div class="item" style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
                 <div class="img_row" style="background-color: transparent; border-radius: 100%; height: 88px; width: 88px; max-width: 100%; max-height: 100%;">
                     <img src="./img/1.png" alt="" style="width: 100%;; position:relative">
@@ -233,7 +235,7 @@
            
         </div>
 
-        <div class="row" style="display: flex; justify-content: space-between;margin-bottom: 2rem;">
+        <div class="row" style="display: flex; justify-content: space-around;margin-bottom: 2rem;">
             <div class="item"
                 style="text-align: center; font-size: 1.6rem; font-weight: bold;    width: 88px; height: 120px; padding: 0px;">
                 <div class="img_row"
@@ -322,8 +324,8 @@
             <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;"  >Mobile Phones</span>
         </div>
 
-        <div style="display: flex; justify-content: space-between;">
-                <div class="card" style="width: 18rem; border-radius: 10px;">
+        <div class="row" style="display: flex; justify-content: space-around;">
+                <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
                     <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
                     <div class="card-body">
                         <p class="card-text">
@@ -331,8 +333,7 @@
                             content.</p>
                     </div>
                 </div>
-
-                <div class="card" style="width: 18rem; border-radius: 10px;">
+                <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
                     <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
                     <div class="card-body">
                         <p class="card-text">
@@ -342,7 +343,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem; border-radius: 10px;">
+                <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
                     <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
                     <div class="card-body">
                         <p class="card-text">
@@ -352,7 +353,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem; border-radius: 10px;">
+                <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
                     <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
                     <div class="card-body">
                         <p class="card-text">
@@ -367,14 +368,23 @@
       
     </div>
 
-    <div class="mobiles" style="margin-bottom: 30px;">
+    <div class="mobiles" style="margin-bottom: 30px; cursor: pointer;">
         <div>
-            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;">Mobile Phones</span>
+            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;">Cars</span>
         </div>
     
-        <div style="display: flex; justify-content: space-between;">
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
+        <div class="row" style="display: flex; justify-content: space-around;">
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/car.webp" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
+                        title and make up the bulk of the card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/car.webp" class="card-img-top" alt="" style="height: 200px;">
                 <div class="card-body">
                     <p class="card-text">
                         <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
@@ -383,52 +393,8 @@
                 </div>
             </div>
     
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-        </div>
-    
-    
-    </div>
-
-    <div class="mobiles" style="margin-bottom: 30px;">
-        <div>
-            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;">Mobile Phones</span>
-        </div>
-    
-        <div style="display: flex; justify-content: space-between;">
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/car.webp" class="card-img-top" alt="" style="height: 200px;">
                 <div class="card-body">
                     <p class="card-text">
                         <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
@@ -437,35 +403,12 @@
                 </div>
             </div>
     
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/car.webp" class="card-img-top" alt="" style="height: 200px;">
                 <div class="card-body">
                     <p class="card-text">
                         <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
-                        content.</p>
-                </div>
-            </div>
-    
-            <div class="card" style="width: 18rem; border-radius: 10px;">
-                <img src="./img/mobile.webp" class="card-img-top" alt="" style="height: 200px;">
-                <div class="card-body">
-                    <p class="card-text">
-                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
-                        title and
-                        make up the bulk of the card's
+                        title and make up the bulk of the card's
                         content.</p>
                 </div>
             </div>
@@ -476,18 +419,74 @@
     </div>
 
 
-    <div style="display: flex; flex-direction: row; background-color: rgba(0,47,52,.03); padding:0px 120px 0px 200px;">
+    <div class="mobiles" style="margin-bottom: 30px; cursor: pointer;">
         <div>
-            <img src="./img/footr.webp" alt="">
+            <span style="color: black; font-weight: 700; white-space: nowrap; font-size: 2.4rem;">Motorcycle</span>
         </div>
-        <div>
+    
+        <div class="row" style="display: flex; justify-content: space-around;">
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/bike.webp" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
+                        title and make up the bulk of the card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/bike.webp" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
+                        title and make up the bulk of the card's
+                        content.</p>
+                </div>
+            </div>
+    
+        <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+            <img src="./img/bike.webp" class="card-img-top" alt="" style="height: 200px;">
+            <div class="card-body">
+                <p class="card-text">
+                    <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
+                    title and make up the bulk of the card's
+                    content.</p>
+            </div>
+        </div>
+    
+            <div class="card col-12 col-sm-12 col-md-6 col-lg-3 mt-4 p-0" style="width: 18rem; border-radius: 10px;">
+                <img src="./img/bike.webp" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span style="font-weight: 700;">Rs 15,500</span> <br> Some quick example text to build on the card
+                        title and make up the bulk of the card's
+                        content.</p>
+                </div>
+            </div>
+    
+        </div>
+    
+    
+    </div>
+
+
+
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;  background-color: rgba(0,47,52,.03); ">
+        <div class="row" style=" display: flex; justify-content: center; align-items: center; align-content: center;" >
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+            <img src="./img/footr.webp" alt="" style="position: relative; width: 100%;">
+        </div>
+        
+        <!-- <div class="line">
             <div style="width: 2px;height: 150px;margin-top: 30px; background-color: rgba(0,47,52,.2);"></div>
-        </div>
-        <div  style="margin-left: 32px;">
-            <div style="margin: 60px 0px 12px 12px;">
+        </div> -->
+        <div  class="col-12 col-sm-12 col-md-6 col-lg-6 "
+         style="display: flex; justify-content: center; align-items: center; flex-direction: column; align-content: center; height: auto;;
+         ">
+            <div style="display: flex; justify-content: center; align-items: center; align-content: center;">
                 <span style="font-weight: 700; ">GET YOUR APP TODAY</span>
             </div>
-            <div class="app_box" style=" ">
+            <div class="app_box" style="position: relative; display: flex; display: flex; justify-content: center; align-items: center; align-content: center; ;">
                 <div class="app" style="" >
                     <img class="app_img" src="./img/app store.svg" alt="">
                 </div>
@@ -499,99 +498,104 @@
                 </div>
             </div>
         </div>
-
+        </div>
     </div>
 
-<div class="footer">
-    <div style="background-color: #ebeeef; padding: 16px 0 16px 6.4rem; border-top: 1px solid rgba(0,47,52,.2); display: flex; flex-direction: row; ">
-    <div class="tex_footr">
-        <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-        <br>
-        <br>
+<div class="footer" style="background-color: #ebeeef; display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;">
+    <div class="row" style="padding: 10px; background-color: #ebeeef;  border-top: 1px solid rgba(0,47,52,.2); flex-direction: row; justify-content: space-between;">
+        <!-- <div class="tex_footr"> -->
+            <div class="row col-12 col-sm-12 col-md-6 col-lg-8">
+            <div class="tex_footr " style="width: 25%;">
+                <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
+                <br>
+                <br>
+                
+                <span class="psan_end">Cars</span><br>
+                <span class="psan_end">Flats for rent</span><br>
+                <span class="psan_end">obile Phones</span><br>
+                <span class="psan_end">Jobs</span>
+            </div>
+          <div class="tex_footr" style="width: 25%;>
+                <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
+                <br>
+                <br>
+
+                <span class="psan_end">Cars</span><br>
+                <span class="psan_end">Flats for rent</span><br>
+                <span class="psan_end">obile Phones</span><br>
+                <span class="psan_end">Jobs</span>
+            </div>
+            <div class="tex_footr" style="width: 25%;>
+                <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
+                <br>
+                <br>
+            
+                <span class="psan_end">Cars</span><br>
+                <span class="psan_end">Flats for rent</span><br>
+                <span class="psan_end">obile Phones</span><br>
+                <span class="psan_end">Jobs</span>
+            </div>
+            <div class="tex_footr"style="width: 25%;>
+                <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
+                <br>
+                <br>
+            
+                <span class="psan_end">Cars</span><br>
+                <span class="psan_end">Flats for rent</span><br>
+                <span class="psan_end">obile Phones</span><br>
+                <span class="psan_end">Jobs</span>
+            </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="tex_footr " style="width: 30%;>
+            <div style="margin-left: 0px; ">
+                <div style="margin: 60px 0px 0px 12px;">
+                    <span style="font-weight: 700; ">GET YOUR APP TODAY</span>
+                </div>
+
+                <div style="display: flex; flex-direction: row; cursor: pointer;">
+                        <div style="margin: 0px 0px 12px 12px;">
+                            <span style="font-weight: 700; "><img src="./img/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
+                                    alt="" style="width: 24px ;"></span>
+                        </div>
+
+                        <div style="margin: 0px 0px 12px 12px;">
+                            <span style="font-weight: 700; "><img src="./img/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="" style="width: 24px;"></span>
+                        </div>
+
+                        <div style="margin: 0px 0px 12px 12px;">
+                            <span style="font-weight: 700; "><img src="./img/youtube.png"alt="" style="width: 24px;"></span>
+                        </div>
+
+                        <div style="margin: 0px 0px 12px 12px;">
+                            <span style="font-weight: 700; "><img src="./img/38-instagram-2-512.webp"alt="" style="width: 24px;"></span>
+                        </div>
+                </div>
+                <div class="app_box" style=" ">
+                    <div class="app" style="">
+                        <img class="app_img2" src="./img/app store.svg" alt="">
+                    </div>
+                    <div class="app">
+                        <img class="app_img2" src="./img/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="">
+                    </div>
+                    <div class="app">
+                        <img class="app_img2" src="./img/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+            
+
+    </div>
+    <Div class="row" style="width: 100%; background-color: #002f34; text-align: right;color: white;  padding: 15px 10px 15px ; height: 60px; text-align: center;">
+      
+            <p>
+            <span>Free Classifieds in Pakistan.</span> © 2006-2023 OLX</p>
         
-        <span class="psan_end">Cars</span><br>
-        <span class="psan_end">Flats for rent</span><br>
-        <span class="psan_end">obile Phones</span><br>
-        <span class="psan_end">Jobs</span>
-    </div>
-<div class="tex_footr">
-    <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-    <br>
-    <br>
-
-    <span class="psan_end">Cars</span><br>
-    <span class="psan_end">Flats for rent</span><br>
-    <span class="psan_end">obile Phones</span><br>
-    <span class="psan_end">Jobs</span>
-</div>
-    <div class="tex_footr">
-        <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-        <br>
-        <br>
-    
-        <span class="psan_end">Cars</span><br>
-        <span class="psan_end">Flats for rent</span><br>
-        <span class="psan_end">obile Phones</span><br>
-        <span class="psan_end">Jobs</span>
-    </div>
-    <div class="tex_footr">
-        <span style=" font-weight: bold;">POPULAR CATEGORIES</span>
-        <br>
-        <br>
-    
-        <span class="psan_end">Cars</span><br>
-        <span class="psan_end">Flats for rent</span><br>
-        <span class="psan_end">obile Phones</span><br>
-        <span class="psan_end">Jobs</span>
-    </div>
-<div class="tex_footr">
-    <div style="margin-left: 0px; ">
-        <div style="margin: 60px 0px 0px 12px;">
-            <span style="font-weight: 700; ">GET YOUR APP TODAY</span>
-        </div>
-
-<div style="display: flex; flex-direction: row; cursor: pointer;">
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
-                    alt="" style="width: 24px ;"></span>
-        </div>
-
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="" style="width: 24px;"></span>
-        </div>
-
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/youtube.png"alt="" style="width: 24px;"></span>
-        </div>
-
-        <div style="margin: 0px 0px 12px 12px;">
-            <span style="font-weight: 700; "><img src="./img/38-instagram-2-512.webp"alt="" style="width: 24px;"></span>
-        </div>
-</div>
-        <div class="app_box" style=" ">
-            <div class="app" style="">
-                <img class="app_img2" src="./img/app store.svg" alt="">
-            </div>
-            <div class="app">
-                <img class="app_img2" src="./img/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="">
-            </div>
-            <div class="app">
-                <img class="app_img2" src="./img/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-    
-
-    </div>
+    </Div>
 </div>
 
-<div style="background-color: #002f34; text-align: right;color: white;  padding: 15px 100px 15px ;">
-    <div>
-            <span>Free Classifieds in Pakistan</span>. © 2006-2023 OLX
-    </div>
-
-</div>
 
 
 

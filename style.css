@@ -75,12 +75,12 @@
 }
 
 .app{
-     margin:10px;
+     margin:5px;
     
 }
 
 .app_img{
-    width: 120px;
+    width: 5rem;
     
 }
 
@@ -92,11 +92,20 @@
 
 
 .tex_footr{
-    margin: 10px;
+    width: 200px;
+    /* border: 1px solid; */
+    /* margin: 10px; */
     color: rgba(0,47,52,.64);
 }
 
 .psan_end:hover{
     cursor: pointer;
     color: black;
+}
+
+
+@media screen and (min-width:300px){
+    .top_div_img{
+        visibility: hidden;
+    }
 }
